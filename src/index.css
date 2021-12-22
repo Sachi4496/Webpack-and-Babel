@@ -1,0 +1,44 @@
+.mainDiv{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.navBar{
+    width: 100%;
+    background-color: gray;
+    height: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.navBar img{
+    width: 50px;
+    height: 50px;
+    margin: 6px 16px;
+    border-radius: 10px;
+}
+.navBar h1{
+    margin: 10px 16px;
+}
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid blue; */
+    height:fit-content
+}
+#textString{
+    width: 95%;
+    height: 100px;
+    margin: 5px;
+}
+#btn{
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.outputDiv{
+    width: 95%;
+    margin: auto;
+    /* border: 2px solid green; */
+}
